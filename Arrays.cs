@@ -17,7 +17,10 @@ namespace challange
             studentGradus[2] = 100;
             studentGradus[9] = 900;
 
-            Console.WriteLine(studentGradus[9]);
+            foreach (var studentGrad in studentGradus)
+            {
+            Console.WriteLine(studentGrad);
+            }
         }
         }
         }
